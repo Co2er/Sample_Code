@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'NotificationSample' target in the 'NotificationSample' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#define DONE_NOTIFICATION @"setDoneNotification"
+	#define CANCEL_NOTIFICATION @"setCancelNotification"
+#endif
